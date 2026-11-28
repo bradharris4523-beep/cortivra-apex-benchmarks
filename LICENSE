@@ -1,0 +1,65 @@
+================================================================================
+DUAL-BOUNDARY LICENSE & INTELLECTUAL PROPERTY NOTICE
+Repository: Cortivra-Apex v2.0.0 Public GPU Benchmark & Verification Suite
+Publisher:  Omni Intelligence LLC (https://cortivra-apex.com)
+================================================================================
+
+IMPORTANT SCOPE NOTICE — TWO DISTINCT LICENSING BOUNDARIES APPLY TO THIS FOLDER:
+
+1. PART I (MIT LICENSE): Applies ONLY to the plain-text Python verification and
+   benchmark scripts (`verify_independently.py` and `verify_real_llm_vram.py`)
+   and their accompanying Markdown documentation (`README.md`,
+   `BENCHMARK_GUIDE.md`, `RTX_5080_RESULTS.md`, `USER_AND_DEVELOPER_GUIDE.md`).
+
+2. PART II (OMNI INTELLIGENCE LLC PROPRIETARY COMMERCIAL EULA): The binary
+   software distribution archive (`cortivra-apex-v2.0.0-release.zip`),
+   including `Cortivra-Apex.exe`, `cortivra-apex.pyz`, all encrypted `.cvx`
+   silicon and runtime vaults (`cortivra_apex_silicon.cvx`,
+   `cortivra_apex_silicon_legacy.cvx`, `cortivra_laws_universal.cvx`,
+   `cortivra_runtime_core.cvx`), and all compiled `.pyc` bytecode modules, is
+   PROPRIETARY COMMERCIAL SOFTWARE owned exclusively by Omni Intelligence LLC.
+   It is NOT open-source and is NOT licensed under the MIT License; it is
+   licensed strictly under the Omni Intelligence LLC Master End-User License
+   Agreement (`EULA_AND_TERMS.txt` inside the release archive and online at
+   https://cortivra-apex.com/legal.html).
+
+--------------------------------------------------------------------------------
+PART I: MIT LICENSE (APPLICABLE SOLELY TO `verify_independently.py`,
+`verify_real_llm_vram.py`, AND ACCOMPANYING MARKDOWN DOCUMENTATION)
+--------------------------------------------------------------------------------
+MIT License
+
+Copyright (c) 2026 Omni Intelligence LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of the plain-text benchmark verification scripts (`verify_independently.py`
+and `verify_real_llm_vram.py`) and associated documentation files (the
+"Verification Scripts"), to deal in the Verification Scripts without
+restriction, including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Verification
+Scripts, and to permit persons to whom the Verification Scripts are furnished
+to do so, subject to the following conditions:
+
+The above copyright notice, the Dual-Boundary Scope Notice, and this permission
+notice shall be included in all copies or substantial portions of the
+Verification Scripts.
+
+THE VERIFICATION SCRIPTS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE VERIFICATION SCRIPTS OR THE USE
+OR OTHER DEALINGS IN THE VERIFICATION SCRIPTS.
+
+--------------------------------------------------------------------------------
+PART II: PROPRIETARY COMMERCIAL SOFTWARE EXCLUSION (`cortivra-apex-v2.0.0-release.zip`)
+--------------------------------------------------------------------------------
+Nothing in Part I grants any license, right, title, or interest under the MIT
+License to `cortivra-apex-v2.0.0-release.zip`, `Cortivra-Apex.exe`,
+`cortivra-apex.pyz`, any `.cvx` vault, or any compiled `.pyc` module. All use,
+execution, and distribution of the Cortivra-Apex binary software is governed
+exclusively by the Omni Intelligence LLC Master End-User License Agreement
+(`EULA_AND_TERMS.txt` / https://cortivra-apex.com/legal.html).
+Copyright (c) 2026 Omni Intelligence LLC. All rights reserved.
+================================================================================

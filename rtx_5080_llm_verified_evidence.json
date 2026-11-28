@@ -1,0 +1,54 @@
+{
+  "model": "Qwen/Qwen2.5-Coder-3B-Instruct",
+  "vram_fp16_steady_gib": 5.854,
+  "vram_fp16_peak_gib": 5.891,
+  "vram_fp32_eq_gib": 11.708,
+  "vram_8bit_steady_gib": 3.7,
+  "vram_8bit_peak_gib": 3.748,
+  "vram_4bit_steady_gib": 2.272,
+  "vram_4bit_gen_peak_gib": 2.277,
+  "vram_4bit_stream_peak_gib": 2.852,
+  "compression_4bit_steady_vs_fp16": 2.577,
+  "compression_4bit_gen_peak_vs_fp16": 2.587,
+  "compression_4bit_vs_fp32": 5.154,
+  "throughput_fp16_tok_per_sec": 35.21,
+  "throughput_8bit_tok_per_sec": 40.06,
+  "throughput_4bit_tok_per_sec": 36.15,
+  "perplexity_fp16": 5.907683663406974,
+  "perplexity_8bit": 5.894793056442171,
+  "perplexity_4bit": 6.132580842768476,
+  "logit_cosine_8bit": 0.9999823148892966,
+  "logit_cosine_4bit": 0.9955069898804514,
+  "kl_divergence_8bit_nats": 0.000108,
+  "kl_divergence_4bit_nats": 0.038717,
+  "top1_agreement_8bit_pct": 99.58506226539612,
+  "top1_agreement_4bit_pct": 93.77593398094177,
+  "top5_agreement_4bit_pct": 99.58506226539612,
+  "competitor_bitsandbytes_nf4": {
+    "vram_steady_gib": 1.954,
+    "vram_peak_gib": 2.005,
+    "perplexity": 5.984198801359431,
+    "logit_cosine": 0.9929912523950881,
+    "kl_divergence_nats": 0.028277,
+    "top1_agreement_pct": 93.36099624633789,
+    "top5_agreement_pct": 100.0,
+    "throughput_tok_per_sec": 26.81
+  },
+  "pretrained_36layer_qlora_backprop": {
+    "qlora_4bit_peak_vram_gib": 3.434,
+    "qlora_4bit_ms_per_step": 126.66,
+    "qlora_4bit_initial_loss": 1.58051,
+    "qlora_4bit_final_loss": 1.42108,
+    "qlora_4bit_layer0_grad_norm": 0.086175
+  },
+  "exams_fp16_baseline": {
+    "humaneval_pass": 10,
+    "gsm8k_pass": 4,
+    "mmlu_pass": 4
+  },
+  "exams_4bit_cortivra": {
+    "humaneval_pass": 10,
+    "gsm8k_pass": 5,
+    "mmlu_pass": 5
+  }
+}
